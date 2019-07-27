@@ -1,0 +1,11 @@
+[package]
+name = "veandco_logger"
+version = "0.1.0"
+authors = ["Lilis Iskandar <lilis@veand.co"]
+edition = "2018"
+description = "A wrapper for env_logger with custom colors and file-plus-line-number information"
+license = "GPL-2.0"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.6"
