@@ -21,11 +21,10 @@ pub fn init() {
 
             writeln!(
                 buf,
-                "[{} {} {} ({}:{})] {}",
+                "[{} {} {}:{}] {}",
                 buf.timestamp(),
                 style.value(record.level()),
                 record.module_path().unwrap(),
-                record.file().unwrap(),
                 record.line().unwrap(),
                 record.args(),
             )
